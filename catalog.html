@@ -143,6 +143,22 @@
           <span class="hotel-card-price">от 4000 &#8381;</span>
           <a class="hotel-card-button button" href="#">подробнее</a>
           <a class="hotel-card-button button" href="#">в избранное</a>
+          <fieldset class="rating">
+              <div class="rating__group">
+                <input class="rating__input" type="radio" name="star" id="star-1" value="1" >
+                <label class="rating__star" for="star-1" aria-label="one star"></label>
+
+                <input class="rating__input" type="radio" name="star" id="star-2" value="2">
+                <label class="rating__star" for="star-2" aria-label="two star"></label>
+
+                <input class="rating__input" type="radio" name="star" id="star-3" value="3">
+                <label class="rating__star" for="star-3" aria-label="three star"></label>
+
+                <input class="rating__input" type="radio" name="star" id="star-4" value="4" checked>
+                <label class="rating__star" for="star-4" aria-label="four star"></label>
+                <div class="rating__focus"></div>
+            </div>
+        </fieldset>
         </li>
         <li class="hotel-card">
           <a class="hotel-card-link" href="#">
@@ -153,6 +169,19 @@
           <span class="hotel-card-price">от 3000 &#8381;</span>
           <a class="hotel-card-button button" href="#">подробнее</a>
           <a class="hotel-card-button button" href="#">в избранное</a>
+          <fieldset class="rating">
+            <div class="rating__group">
+              <input class="rating__input" type="radio" name="startwo" id="star-1" value="1" >
+              <label class="rating__star" for="star-1" aria-label="one star"></label>
+
+              <input class="rating__input" type="radio" name="startwo" id="star-2" value="2">
+              <label class="rating__star" for="star-2" aria-label="two star"></label>
+
+              <input class="rating__input" type="radio" name="startwo" id="star-3" value="3" checked>
+              <label class="rating__star" for="star-3" aria-label="three star"></label>
+              <div class="rating__focus"></div>
+           </div>
+          </fieldset>
         </li>
         <li class="hotel-card">
            <a class="hotel-card-link" href="#">
@@ -162,7 +191,17 @@
            <span class="hotel-card-type">Гостинница</span>
            <span class="hotel-card-price">от 2000 &#8381;</span>
            <a class="hotel-card-button button" href="#">подробнее</a>
-           <a class="hotel-card-button button" href="#">в избранное</a>
+           <a class="hotel-card-button button" href="#">в избранном</a>
+           <fieldset class="rating">
+            <div class="rating__group">
+              <input class="rating__input" type="radio" name="starthree" id="star-1" value="1" >
+              <label class="rating__star" for="star-1" aria-label="one star"></label>
+
+              <input class="rating__input" type="radio" name="starthree" id="star-2" value="2" checked>
+              <label class="rating__star" for="star-2" aria-label="two star"></label>
+              <div class="rating__focus"></div>
+            </div>
+         </fieldset>
         </li>
         <li class="hotel-card">
            <a class="hotel-card-link" href="#">
@@ -173,6 +212,16 @@
            <span class="hotel-card-price">от 3000 	&#8381;</span>
            <a class="hotel-card-button button" href="#">подробнее</a>
            <a class="hotel-card-button button" href="#">в избранное</a>
+           <fieldset class="rating">
+            <div class="rating__group">
+              <input class="rating__input" type="radio" name="starfour" id="star-1" value="1" >
+              <label class="rating__star" for="star-1" aria-label="one star"></label>
+
+              <input class="rating__input" type="radio" name="starfour" id="star-2" value="2" checked>
+              <label class="rating__star" for="star-2" aria-label="two star"></label>
+              <div class="rating__focus"></div>
+            </div>
+         </fieldset>
         </li>
       </ul>
       <button class="button pagination-show-more" type="button">Загрузить ещё</button>
@@ -200,7 +249,7 @@
       </ul>
     </section>
     <form class="sorting-type">
-      <label class="" for="sorting">Гостиниц на странице:</label>
+      <label class="input-size" for="sorting">Гостиниц на странице:</label>
       <select class="select-control" aria-label="Гостиниц на странице:">
         <option value="four">4</option>
         <option value="eight">8</option>
